@@ -1,0 +1,10 @@
+.main_header {
+  font-size: 30px;
+  color: chartreuse;
+}
+
+.main_text {
+  font-size: 20px;
+  color: rgb(247, 200, 81);
+  font-style: italic;
+}
