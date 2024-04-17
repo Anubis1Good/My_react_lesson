@@ -1,0 +1,46 @@
+.base {
+    
+
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 3px double black;
+    box-sizing: border-box;
+    
+}
+.buba {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    transform: rotateZ(45deg);
+    border: 1px solid black;
+}
+
+.number {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.outer {
+    padding: 5px;
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1612746390_134-p-goluboi-fon-setka-194.png');
+    background-size:cover;
+    width: 100px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    transition: all 1s;
+}
+.outer:hover {
+    transform: scale(110%);
+    transition: all 1s;
+}
